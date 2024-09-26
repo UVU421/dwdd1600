@@ -1,0 +1,113 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+/* Header Stuff Here*/
+header {
+    background-color: #F0EEF2;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #920504;
+    letter-spacing: .5px;
+}
+header p {
+    margin: 0;
+    color: #920504;
+    letter-spacing: -1px;
+}
+/* Nav Stuff Here*/
+nav {
+    background-color: #DECFB8;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    font: 1.1rem;
+    text-decoration: none;
+    color: #920504;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #920504;
+    color: #DECFB8
+}
+nav a:hover {
+    color: #400504;
+}
+/* Main Stuff Here*/
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #399185
+}
+main h2 {
+    color: #399185;
+    margin-bottom: .2rem;
+}
+main h2 a {
+    color: #399185;
+}
+main h2 a:hover {
+    color: #6DAC99;
+}
+main p {
+    color: #400504;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #F0EEF2;
+}
+main dl dt {
+    color: #920504;
+    font-weight: 700;
+}
+main dl dd {
+   color: #400504;
+    font-size: .9rem
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem
+}
+main address {
+    font-style: normal;
+    background-color: #DECFB8;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #399185;
+    color: #920504;
+    border-radius: .5rem;
+}
+main a {
+    color: #920504;
+}
+main a:hover {
+    color: #6DAC99;
+}
+/* Footer Stuff Here*/
+footer {
+    background-color: #F0EEF2;
+    text-align: center;
+    color: #920504;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #920504;
+}
